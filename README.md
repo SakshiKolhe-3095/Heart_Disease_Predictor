@@ -22,14 +22,20 @@ Built with **Python, scikit-learn, and Streamlit**.
 ---
 
 ## 📂 Project Structure
-heart-disease-predictor/
+HeartDiseasePredictor/
 │
-├── app.py # Streamlit app
-├── KNN_heart.pkl # Trained model
-├── scaler.pkl # Scaler used for preprocessing
-├── columns.pkl # Expected columns for model
-├── requirements.txt # Project dependencies
-└── README.md
+├── app.py               # Streamlit app
+├── KNN_heart.pkl        # Trained model
+├── scaler.pkl           # Scaler used for preprocessing
+├── columns.pkl          # Expected columns for model
+├── requirements.txt     # Project dependencies
+├── README.md            # Project documentation
+├── .gitignore           # Git ignore file
+│
+└── data/
+    └── heart.csv        # Dataset
+
+
 
 ## ▶️ Run Locally
 1. Clone this repo:
