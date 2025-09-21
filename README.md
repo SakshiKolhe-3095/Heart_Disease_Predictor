@@ -22,6 +22,7 @@ Built with **Python, scikit-learn, and Streamlit**.
 ---
 
 ## 📂 Project Structure
+```plaintext
 HeartDiseasePredictor/
 │
 ├── app.py               # Streamlit app
